@@ -1,9 +1,9 @@
-package com.emil.common.autoclose.runtime;
+package com.emil.common.runtime;
 
 import java.io.IOException;
 
 /**
- * Runtime类中的构造方法已经被私有化，Runtime属于单例设计模式
+ * Runtime类中的构造方法已经被私有化，Runtime类属于单例设计模式
  *
  * @author emil
  */
@@ -17,5 +17,6 @@ public class RunTimeDemo {
         Thread.sleep(2000);
         //销毁进程
         process.destroy();
+
     }
 }
