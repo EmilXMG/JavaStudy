@@ -1,4 +1,4 @@
-package com.emil.datedemo;
+package com.emil.datedemo.localdate;
 
 import java.time.Instant;
 import java.time.LocalDate;

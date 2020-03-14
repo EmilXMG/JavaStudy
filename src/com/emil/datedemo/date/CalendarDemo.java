@@ -1,4 +1,4 @@
-package com.emil.datedemo;
+package com.emil.datedemo.date;
 
 import java.util.Calendar;
 

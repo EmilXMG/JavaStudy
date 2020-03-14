@@ -1,4 +1,4 @@
-package com.emil.datedemo;
+package com.emil.datedemo.localdate;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

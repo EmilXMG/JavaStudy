@@ -1,4 +1,4 @@
-package com.emil.datedemo;
+package com.emil.datedemo.simpledateformat;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
