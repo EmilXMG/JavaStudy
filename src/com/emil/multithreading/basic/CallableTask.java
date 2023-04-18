@@ -1,10 +1,7 @@
 package com.emil.multithreading.basic;
 
 import java.util.Random;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 /**
  * @author emil
@@ -12,9 +9,14 @@ import java.util.concurrent.Future;
 public class CallableTask implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
-        return new Random().nextInt();
+        return 123;
     }
 
-    ExecutorService service = Executors.newFixedThreadPool(10);
-    Future<Integer> future = service.submit(new CallableTask());
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        CallableTask callableTask = new CallableTask();
+        FutureTask<Integer> future = new FutureTask<>(callableTask);
+        Thread thread = new Thread(future);
+        thread.start();
+        System.out.println(future.get());
+    }
 }
