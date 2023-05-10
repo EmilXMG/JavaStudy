@@ -1,4 +1,4 @@
-package com.emil.basic.genericstudy.singlegeneraticclass;
+package com.emil.basic.java_generic.singlegeneraticclass;
 
 /**
  * 单类型参数的泛型类

@@ -1,4 +1,4 @@
-package com.emil.basic.genericstudy.genericslimit;
+package com.emil.basic.java_generic.genericslimit;
 
 /**
  * 泛型上界

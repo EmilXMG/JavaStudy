@@ -1,15 +1,21 @@
-package com.emil.basic.genericstudy.genericslimit;
+package com.emil.basic.java_generic.singlegeneraticclass;
 
 /**
- * 泛型上界
- *
  * @Author: 13419
- * @Date: 2023/4/25 10:13
+ * @Date: 2023/4/25 0:24
  * @Version: v1.0.0
  * @Description: TODO
  **/
-public class EmilDemo<T extends Number> {  // 此处泛型只能是数字类型
+public class Data<T> {
+
     private T value;
+
+    public Data() {
+    }
+
+    public Data(T value) {
+        this.value = value;
+    }
 
     public T getValue() {
         return value;
@@ -21,8 +27,6 @@ public class EmilDemo<T extends Number> {  // 此处泛型只能是数字类型
 
     @Override
     public String toString() {
-        return "EmilDemo{" +
-                "value=" + value +
-                '}';
+        return "Info{" + "value=" + value + '}';
     }
 }

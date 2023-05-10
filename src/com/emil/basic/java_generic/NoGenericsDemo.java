@@ -1,4 +1,4 @@
-package com.emil.basic.genericstudy;
+package com.emil.basic.java_generic;
 
 import java.util.ArrayList;
 import java.util.List;

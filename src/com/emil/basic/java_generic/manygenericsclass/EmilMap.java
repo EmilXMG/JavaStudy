@@ -1,4 +1,4 @@
-package com.emil.basic.genericstudy.manygenericsclass;
+package com.emil.basic.java_generic.manygenericsclass;
 
 /**
  * @Author: 13419

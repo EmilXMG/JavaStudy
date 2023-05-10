@@ -1,4 +1,4 @@
-package com.emil.basic.genericstudy.genericsinterface;
+package com.emil.basic.java_generic.genericsinterface;
 
 /**
  * @Author: 13419

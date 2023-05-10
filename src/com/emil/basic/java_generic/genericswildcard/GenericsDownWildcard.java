@@ -1,4 +1,4 @@
-package com.emil.basic.genericstudy.genericswildcard;
+package com.emil.basic.java_generic.genericswildcard;
 
 import java.util.ArrayList;
 import java.util.Arrays;
