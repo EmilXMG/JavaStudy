@@ -1,4 +1,4 @@
-package com.emil.basic.java_eight.other;
+package com.emil.basic.java_eight.m_c_reference;
 
 /**
  * @Author: 13419

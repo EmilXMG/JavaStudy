@@ -1,7 +1,7 @@
 package com.emil.basic.java_eight.defalut_method;
 
 /**
- * @Author: 13419
+ * @Author: emil
  * @Date: 2023/5/9 15:09
  * @Version: v1.0.0
  * @Description: TODO

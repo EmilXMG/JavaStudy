@@ -1,7 +1,7 @@
-package com.emil.basic.java_eight.other;
+package com.emil.basic.java_eight.m_c_reference;
 
 /**
- * @Author: 13419
+ * @Author: emil
  * @Date: 2023/5/9 7:57
  * @Version: v1.0.0
  * @Description: TODO

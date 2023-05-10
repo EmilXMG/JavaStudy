@@ -1,10 +1,10 @@
-package com.emil.basic.java_eight.builtinfourfunctions;
+package com.emil.basic.java_eight.builtin_functions;
 
 import java.util.Objects;
 import java.util.function.Predicate;
 
 /**
- * @Author: 13419
+ * @Author: emil
  * @Date: 2023/5/9 10:31
  * @Version: v1.0.0
  * @Description: TODO
