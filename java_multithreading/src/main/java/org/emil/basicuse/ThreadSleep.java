@@ -8,8 +8,6 @@ public class ThreadSleep {
     }
 
     static class ThreadSleepDemo implements Runnable {
-
-
         // 线程名称
         private String name;
 

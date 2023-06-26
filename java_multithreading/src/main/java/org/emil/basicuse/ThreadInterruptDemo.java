@@ -11,6 +11,7 @@ public class ThreadInterruptDemo {
         t.start();
         try {
             // 线程休眠2秒
+            Thread.currentThread().interrupt();
             Thread.sleep(2000);
         }
         catch (InterruptedException e) {

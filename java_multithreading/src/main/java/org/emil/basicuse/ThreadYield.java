@@ -20,6 +20,7 @@ public class ThreadYield {
                     throw new RuntimeException(e);
                 }
                 System.out.println(Thread.currentThread().getName() + "运行，i = " + i);
+                // 当 i=2 的时候，给其他线程执行的机会
                 if (i == 2) {
                     System.out.println("线程礼让：");
                     Thread.yield();
