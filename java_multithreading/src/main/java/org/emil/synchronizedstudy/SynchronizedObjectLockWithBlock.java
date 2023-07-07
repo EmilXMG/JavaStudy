@@ -26,5 +26,3 @@ public class SynchronizedObjectLockWithBlock implements Runnable {
         t2.start();
     }
 }
-
-//
