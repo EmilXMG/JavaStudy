@@ -1,4 +1,4 @@
-package org.emil.reflect_demo;
+package org.emil.reflect_demo.getclass;
 
 /**
  * 类名 + .class
